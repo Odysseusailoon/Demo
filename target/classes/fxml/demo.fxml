@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ui.DemoController"
+            prefHeight="400.0" prefWidth="400.0">
+    <VBox prefHeight="400" prefWidth="400">
+       <TableView prefWidth="400" prefHeight="300">
+       <columns>
+           <TableColumn text="姓名">
+
+           </TableColumn>
+
+           <TableColumn text="学号">
+
+           </TableColumn>
+       </columns>
+       </TableView>
+        <HBox prefHeight="100" prefWidth="400" alignment="CENTER">
+            <Button text="添加">
+            </Button>
+        </HBox>
+        <HBox prefHeight="100" prefWidth="400" alignment="CENTER">
+            <Label text="姓名">
+            </Label>
+            <TextField >
+            </TextField>
+        </HBox>
+        <HBox prefHeight="100" prefWidth="400" alignment="CENTER">
+            <Label text="学号">
+            </Label>
+            <TextField >
+            </TextField>
+        </HBox>
+    </VBox>
+</AnchorPane>
